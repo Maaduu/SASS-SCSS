@@ -1,0 +1,6 @@
+header {
+    background-color: $primaryColor;
+    padding: 50px;
+    margin-bottom: 500px;
+    @include border-radius(10px);
+}

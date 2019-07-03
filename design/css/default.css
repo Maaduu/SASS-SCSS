@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+@import url("https://fonts.googleapis.com/css?family=NotoSansTC");
+body {
+  background-color: purple;
+  color: white; }
+
+header {
+  background-color: rgba(236, 233, 18, 0.774);
+  padding: 50px;
+  margin-bottom: 500px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px; }
+
+footer {
+  background-color: rgba(236, 233, 18, 0.774);
+  padding: 50px;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  font-family: 'Roboto', sans-serif; }
+  footer span {
+    color: white; }
+    footer span:hover {
+      text-decoration: underline; }
+
+.alert-green, .alert-red {
+  border: 1px solid #ccc;
+  padding: 15px;
+  color: white;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+  font-family: "Noto+Sans+TC", sans-serif; }
+
+.alert-green {
+  background-color: green; }
+
+.alert-red {
+  background-color: red; }
+
+#logo {
+  margin-left: auto;
+  margin-right: auto;
+  width: 135px; }
+
+#slogan {
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px; }
+
+.grid-1 {
+  width: 100px; }
+
+.grid-2 {
+  width: 200px; }
+
+.grid-3 {
+  width: 300px; }
+
+.grid-4 {
+  width: 400px; }
+
+.grid-5 {
+  width: 500px; }
+
+.grid-6 {
+  width: 600px; }
+
+.grid-0 {
+  width: 0px; }
+
+.grid-1 {
+  width: 100px; }
+
+.grid-2 {
+  width: 200px; }
+
+.grid-3 {
+  width: 300px; }
+
+.grid-4 {
+  width: 400px; }
+
+.grid-5 {
+  width: 500px; }
+
+.grid-6 {
+  width: 600px; }
+
+.mon-super-site-icon {
+  background-image: url("/img/mon-super-site.png"); }
+
+.boostrap-icon {
+  background-image: url("/img/boostrap.png"); }
+
+.php-icon {
+  background-image: url("/img/php.png"); }
+
+.sass-icon {
+  background-image: url("/img/sass.png"); }
+
+/*# sourceMappingURL=default.css.map */
