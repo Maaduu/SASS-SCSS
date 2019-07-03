@@ -52,4 +52,55 @@ footer {
   margin-right: auto;
   width: 150px; }
 
+.grid-1 {
+  width: 100px; }
+
+.grid-2 {
+  width: 200px; }
+
+.grid-3 {
+  width: 300px; }
+
+.grid-4 {
+  width: 400px; }
+
+.grid-5 {
+  width: 500px; }
+
+.grid-6 {
+  width: 600px; }
+
+.grid-0 {
+  width: 0px; }
+
+.grid-1 {
+  width: 100px; }
+
+.grid-2 {
+  width: 200px; }
+
+.grid-3 {
+  width: 300px; }
+
+.grid-4 {
+  width: 400px; }
+
+.grid-5 {
+  width: 500px; }
+
+.grid-6 {
+  width: 600px; }
+
+.mon-super-site-icon {
+  background-image: url("/img/mon-super-site.png"); }
+
+.boostrap-icon {
+  background-image: url("/img/boostrap.png"); }
+
+.php-icon {
+  background-image: url("/img/php.png"); }
+
+.sass-icon {
+  background-image: url("/img/sass.png"); }
+
 /*# sourceMappingURL=default.css.map */

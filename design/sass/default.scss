@@ -93,3 +93,31 @@ footer {
     width: 150px;
 
 }
+
+//boucle for
+@for $i from 1 through 6 {
+    .grid-#{$i} {
+        width: 100px*$i;
+    }
+}
+
+//boucle while
+$i: 0;
+
+@while $i <=6 {
+    .grid-#{$i} {
+        width: 100px*$i;
+    }
+
+    $i: $i+1;
+}
+
+//boucle each
+@each $name in mon-super-site,
+boostrap,
+php,
+sass {
+    .#{$name}-icon {
+        background-image: url("/img/#{$name}.png");
+    }
+}
