@@ -1,6 +1,15 @@
 //variables
 $primaryColor: rgba(236, 233, 18, 0.774);
 $theme: purple;
+$i: 0;
+$list: banane,
+mangue,
+orang,
+kiwi;
+$fruit: groseille;
+$list: append($list, $fruit, comma);
+$default: (color: green, font-size: 1em);
+$maListeDeColor:(color-blue: red, color-green: black, color-red: yellow);
 
 //mixin
 @mixin border-radius($degres) {
@@ -48,6 +57,7 @@ footer {
     padding: 50px;
     @include border-radius(10px);
     font-family: 'Roboto', sans-serif;
+    content: nth($list, 1);
 
     span {
         color: white;
@@ -85,7 +95,7 @@ footer {
 #logo {
     @include center;
     width: 135px;
-
+    color: map-get($default, color)
 }
 
 #slogan {
@@ -102,8 +112,6 @@ footer {
 }
 
 //boucle while
-$i: 0;
-
 @while $i <=6 {
     .grid-#{$i} {
         width: 100px*$i;
@@ -113,11 +121,15 @@ $i: 0;
 }
 
 //boucle each
-@each $name in mon-super-site,
-boostrap,
-php,
-sass {
+@each $name in $list {
     .#{$name}-icon {
         background-image: url("/img/#{$name}.png");
+    }
+}
+
+@each $key,
+$value in $maListeDeColor {
+    .#{$key} {
+        color: #{$value};
     }
 }

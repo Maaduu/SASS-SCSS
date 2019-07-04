@@ -20,7 +20,8 @@ footer {
   -webkit-border-radius: 10px;
   -ms-border-radius: 10px;
   border-radius: 10px;
-  font-family: 'Roboto', sans-serif; }
+  font-family: 'Roboto', sans-serif;
+  content: banane; }
   footer span {
     color: white; }
     footer span:hover {
@@ -45,7 +46,8 @@ footer {
 #logo {
   margin-left: auto;
   margin-right: auto;
-  width: 135px; }
+  width: 135px;
+  color: green; }
 
 #slogan {
   margin-left: auto;
@@ -91,16 +93,28 @@ footer {
 .grid-6 {
   width: 600px; }
 
-.mon-super-site-icon {
-  background-image: url("/img/mon-super-site.png"); }
+.banane-icon {
+  background-image: url("/img/banane.png"); }
 
-.boostrap-icon {
-  background-image: url("/img/boostrap.png"); }
+.mangue-icon {
+  background-image: url("/img/mangue.png"); }
 
-.php-icon {
-  background-image: url("/img/php.png"); }
+.orang-icon {
+  background-image: url("/img/orang.png"); }
 
-.sass-icon {
-  background-image: url("/img/sass.png"); }
+.kiwi-icon {
+  background-image: url("/img/kiwi.png"); }
+
+.groseille-icon {
+  background-image: url("/img/groseille.png"); }
+
+.color-blue {
+  color: red; }
+
+.color-green {
+  color: black; }
+
+.color-red {
+  color: yellow; }
 
 /*# sourceMappingURL=default.css.map */
